@@ -1,0 +1,111 @@
+@keyframes hex-l1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin-l1 {
+  animation-name: hex-l1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes hex-l2 {
+  0% {
+    transform: rotate(120deg);
+  }
+
+  100% {
+    transform: rotate(480deg);
+  }
+}
+.spin-l2 {
+  animation-name: hex-l2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes hex-l3 {
+  0% {
+    transform: rotate(240deg);
+  }
+
+  100% {
+    transform: rotate(600deg);
+  }
+}
+.spin-l3 {
+  animation-name: hex-l3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes anti-clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.clock-spin {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: clockwise;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.anticlock-spin {
+  animation-name: anti-clockwise;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bg-img {
+  background-image: url("../img/landing/code.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes particle-frame {
+  0% {
+    left: 40%;
+    top: 0;
+
+    bottom: 100%;
+  }
+
+  100% {
+    left: 20%;
+    top: 100%;
+
+    bottom: 100%;
+  }
+}
+
+.particle {
+  animation-name: particle-frame;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

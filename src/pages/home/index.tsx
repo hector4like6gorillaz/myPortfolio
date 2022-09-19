@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import LandingModule from "../../modules/landing/LandingModule";
 
 const index = () => {
-  return (
-    <div>index</div>
-  )
-}
+  return <LandingModule />;
+};
 
-export default index
+export default index;
